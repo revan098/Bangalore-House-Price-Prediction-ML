@@ -21,7 +21,7 @@ scaler = pickle.load(open("scaler.pkl", "rb"))
 features = pickle.load(open("features.pkl", "rb"))
 
 # ===================== DATA =====================
-df = pd.read_csv("house_prices_bangalore.csv")
+df=pd.read_csv(r"C:\Users\prathap\Desktop\Bangalore House sales Prediction\house_prices_bangalore.csv")
 df["location"] = df["location"].astype(str).str.strip()
 
 # create target log only for y (not used in X)
