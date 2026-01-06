@@ -49,7 +49,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.mark.markdown("---")
+st.markdown("---")
 
 # ===================== SIDEBAR =====================
 st.sidebar.title("Navigate")
