@@ -129,7 +129,7 @@ if page == "Bangalore Insights":
 
     # --- chart 1
     fig, ax = plt.subplots(figsize=(6,4))
-    ax.scatter(df["area"], df["price")
+    ax.scatter(df["area"], df["price"])
     ax.set_title("Area vs Price – Bengaluru 🇮🇳")
     st.pyplot(fig)
 
